@@ -1,0 +1,422 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Dosis" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <title>Hello, world!</title>
+</head>
+<body>
+<div class="wraper" id="app">
+    <header class="main-header">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light navbar-tranparent">
+                <a class="navbar-brand" href="#">
+                    <img src="dist/images/logo.png" class="logo" alt="Logo">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown dropdown-profile">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Aysha Takiya <img src="dist/images/user.jpeg" class="navbar-user-image" alt="Avatar">
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <section class="section-header d-flex justify-content-center align-items-center">
+            <div class="container">
+                <form action="#" class="search-available-bus">
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>FROM</label>
+                                <input type="text" class="form-control" value="Dhaka">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>TO</label>
+                                <input type="text" class="form-control" value="Sylhet">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>JOURNEY DATE</label>
+                                <input type="text" class="form-control" value="21 Feb 2019">
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="form-group">
+                                <label>RETURN DATE</label>
+                                <input type="text" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+        <section class="section search-result">
+            <div class="container">
+                <div class="table-head">
+                    <form action="#" class="form-search-head">
+                        <div class="row justify-content-end">
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <select name="boarding-point" class="form-control">
+                                        <option value="">Select Boarding</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <select name="boarding-point" class="form-control">
+                                        <option value="">AC / Non AC</option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="operator" placeholder="Transport Company (ALL)">
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Departure Time">
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Arrival Time">
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label class="fare-block">Fare</label>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+
+                    <div class="busses-list">
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="bus-info-box">
+                                    <h5 class="title">Hanif Enterprise</h5>
+                                    <p class="text-muted"><strong>Hino, AK1J Super Plus Non AC</strong></p>
+                                    <p><strong>Route: </strong>Dhaka - Ashuganj - Sayestagong - Sherpur - Syhlet</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="departure-time">4:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <div class="arrival-time">10:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <p class="price text-center"><span class="price text-center">৳&nbsp;450</span></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="bus-info-box">
+                                    <h5 class="title">Hanif Enterprise</h5>
+                                    <p class="text-muted"><strong>Hino, AK1J Super Plus Non AC</strong></p>
+                                    <p><strong>Route: </strong>Dhaka - Ashuganj - Sayestagong - Sherpur - Syhlet</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4 col-sm-4">
+                                <div class="departure-time">4:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <div class="arrival-time">10:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <p class="price text-center"><span class="price text-center">৳&nbsp;450</span></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="bus-info-box">
+                                    <h5 class="title">Hanif Enterprise</h5>
+                                    <p class="text-muted"><strong>Hino, AK1J Super Plus Non AC</strong></p>
+                                    <p><strong>Route: </strong>Dhaka - Ashuganj - Sayestagong - Sherpur - Syhlet</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="departure-time">4:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4">
+                                <div class="arrival-time">10:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <p class="price text-center"><span class="price text-center">৳&nbsp;450</span></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="bus-info-box">
+                                    <h5 class="title">Hanif Enterprise</h5>
+                                    <p class="text-muted"><strong>Hino, AK1J Super Plus Non AC</strong></p>
+                                    <p><strong>Route: </strong>Dhaka - Ashuganj - Sayestagong - Sherpur - Syhlet</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4 col-sm-4">
+                                <div class="departure-time">4:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <div class="arrival-time">10:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <p class="price text-center"><span class="price text-center">৳&nbsp;450</span></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="bus-info-box">
+                                    <h5 class="title">Hanif Enterprise</h5>
+                                    <p class="text-muted"><strong>Hino, AK1J Super Plus Non AC</strong></p>
+                                    <p><strong>Route: </strong>Dhaka - Ashuganj - Sayestagong - Sherpur - Syhlet</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4 col-sm-4">
+                                <div class="departure-time">4:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <div class="arrival-time">10:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <p class="price text-center"><span class="price text-center">৳&nbsp;450</span></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="bus-info-box">
+                                    <h5 class="title">Hanif Enterprise</h5>
+                                    <p class="text-muted"><strong>Hino, AK1J Super Plus Non AC</strong></p>
+                                    <p><strong>Route: </strong>Dhaka - Ashuganj - Sayestagong - Sherpur - Syhlet</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="departure-time">4:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <div class="arrival-time">10:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <p class="price text-center"><span class="price text-center">৳&nbsp;450</span></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="bus-info-box">
+                                    <h5 class="title">Hanif Enterprise</h5>
+                                    <p class="text-muted"><strong>Hino, AK1J Super Plus Non AC</strong></p>
+                                    <p><strong>Route: </strong>Dhaka - Ashuganj - Sayestagong - Sherpur - Syhlet</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4 col-sm-4">
+                                <div class="departure-time">4:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <div class="arrival-time">10:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <p class="price text-center"><span class="price text-center">৳&nbsp;450</span></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="bus-info-box">
+                                    <h5 class="title">Hanif Enterprise</h5>
+                                    <p class="text-muted"><strong>Hino, AK1J Super Plus Non AC</strong></p>
+                                    <p><strong>Route: </strong>Dhaka - Ashuganj - Sayestagong - Sherpur - Syhlet</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4 col-sm-4">
+                                <div class="departure-time">4:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <div class="arrival-time">10:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <p class="price text-center"><span class="price text-center">৳&nbsp;450</span></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="bus-info-box">
+                                    <h5 class="title">Hanif Enterprise</h5>
+                                    <p class="text-muted"><strong>Hino, AK1J Super Plus Non AC</strong></p>
+                                    <p><strong>Route: </strong>Dhaka - Ashuganj - Sayestagong - Sherpur - Syhlet</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4 col-sm-4">
+                                <div class="departure-time">4:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <div class="arrival-time">10:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <p class="price text-center"><span class="price text-center">৳&nbsp;450</span></p>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center align-items-center">
+                            <div class="col-md-6">
+                                <div class="bus-info-box">
+                                    <h5 class="title">Hanif Enterprise</h5>
+                                    <p class="text-muted"><strong>Hino, AK1J Super Plus Non AC</strong></p>
+                                    <p><strong>Route: </strong>Dhaka - Ashuganj - Sayestagong - Sherpur - Syhlet</p>
+                                </div>
+                            </div>
+                            <div class="col-md-2 col-xs-4 col-sm-4">
+                                <div class="departure-time">4:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <div class="arrival-time">10:30PM</div>
+                            </div>
+                            <div class="col-md-2 col-sm-4 col-xs-4">
+                                <p class="price text-center"><span class="price text-center">৳&nbsp;450</span></p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <nav aria-label="Page navigation example">
+                        <ul class="pagination justify-content-end">
+                            <li class="page-item disabled">
+                                <a class="page-link" href="#" tabindex="-1">Previous</a>
+                            </li>
+                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item">
+                                <a class="page-link" href="#">Next</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-light">
+        <div class="p-6 bg-light">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-2">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">About Us</a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">Careers</a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">Contact Us</a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">Affiliate</a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">Our
+                                speciality</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">WinsTicket
+                                plans</a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">Offers</a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">Contacts</a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">Bus
+                                Reservations</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="list-group">
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">Agent
+                                Information</a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">How Agent
+                                Works</a>
+                            <a href="#" class="list-group-item list-group-item-action border-0 bg-transparent">Become an
+                                Agent</a>
+                        </div>
+                    </div>
+                    <div class="col-md-1"></div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <p class="text-dark d-inline-flex"> Stay in Touch</p>
+                                <form action="" method="post">
+                                    <div class="form-row">
+                                        <div class="form-group col-md-6">
+                                            <input type="text" name="newsletter" class="form-control py-2" placeholder="Your Email">
+                                        </div>
+                                        <div class="form-group col-md-4">
+                                            <button class="btn text-white bg-primary font-weight-bold py-2 px-5 waves-effect waves-light">
+                                                Subscribe
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 mt-3">
+                                <button type="button" class="mx-1 btn btn-just-icon btn-round waves-effect waves-light">
+                                    <i class="fa fa-facebook"></i>
+                                </button>
+                                <button type="button" class="mx-1 btn btn-just-icon btn-round border-0 waves-effect waves-light">
+                                    <i class="fa fa-twitter"></i>
+                                </button>
+                                <button type="button" class="mx-1 btn btn-just-icon btn-round border-0 waves-effect waves-light">
+                                    <i class="fa fa-instagram"></i>
+                                </button>
+                                <button type="button" class="mx-1 btn btn-just-icon btn-round border-0 waves-effect waves-light">
+                                    <i class="fa fa-google-plus"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="border-top col-md-12 d-flex align-items-center justify-content-between py-4 px-6">
+                    <span class="text-muted px-2"> ©2018 Winskit Intl.</span>
+                    <span class="text-muted px-2">
+                    <a href="" class="text-muted"> Privacy Policy</a> |
+                    <a href="" class="text-muted"> Terms of Use</a> |
+                    <a href="" class="text-muted"> Cookies Policy</a>
+                </span>
+                </div>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>

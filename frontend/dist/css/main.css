@@ -1,0 +1,144 @@
+main{
+    background-color: #F2F2F2;
+}
+header{
+    background-color: #fff;
+}
+.section-banner{
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    background-image: url('../images/bg-white-bus.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+}
+header .form-area{
+    padding: 70px 15px;
+}
+.logo{
+    max-height: 70px;
+    width: auto;;
+}
+
+.navbar-tranparent .navbar-nav .nav-item{
+    display: flex;
+    align-items: center;
+}
+.navbar-tranparent .navbar-nav .active .nav-link{
+    color: #fc6076;
+}
+.navbar-tranparent .navbar-nav .nav-link{
+    color: #000;
+    padding: 0.5rem 2rem;
+}
+
+.box-shadow-0 {
+    -webkit-box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
+    -moz-box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
+    box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
+}
+
+.box-shadow-1{
+    -webkit-box-shadow: 1px 0 14px 0 rgba(0,0,0,.5);
+    -moz-box-shadow: 1px 0 14px 0 rgba(0,0,0,.5);
+    box-shadow: 1px 0 14px 0 rgba(0,0,0,.5);
+}
+
+.navbar-user-image{
+    height: 46px;
+    width: 46px;
+    border-radius: 50%;
+    box-shadow: 0 1px 20px 0 rgba(46,61,73,.2);
+    margin: 0 10px;
+}
+
+.dropdown-profile{
+    border: 1px solid #fc6076;
+    box-shadow: 0 0 1.25rem rgba(108,118,134,.1);
+    -webkit-transition: all 450ms ease-in-out;
+    -moz-transition: all 450ms ease-in-out;
+    -ms-transition: all 450ms ease-in-out;
+    -o-transition: all 450ms ease-in-out;
+    transition: all 450ms ease-in-out;
+}
+
+.dropdown-profile.show{
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+    color: #fff;
+}
+
+.dropdown-profile.show .nav-link{
+    color: #FFFFFF;
+}
+
+.dropdown-profile .dropdown-menu{
+    box-shadow: 0 0 1.25rem rgba(108,118,134,.1);
+    border: 0px;
+    width: 100%;
+}
+
+.search-form{
+    padding: 2rem 1rem;
+    background-color: rgba(255,255,255,0.6);
+}
+
+.search-available-bus{
+    background-color: #fff;
+    padding: 1rem;
+    margin: 3rem auto;
+}
+
+.section{
+    padding: 70px 0;
+    background-color: #fff;
+}
+
+
+.busses-list{
+    margin-bottom: 50px;
+}
+.form-search-head .form-control{
+    padding: 0.25rem 0.5rem;
+    font-size: 14px;
+    line-height: 1.5;
+    height: auto;
+    border-radius: 0px;
+    background-color: #F2F2F2;
+}
+.bus-info-box{
+    background-color: #f7f7f7;
+    padding: 1rem;
+    font-size: 12px;
+}
+.bus-info-box p{
+    margin-bottom: 0.25rem;
+}
+
+.fare-block{
+    color: #FFFFFF;
+    background-color: #fc6076;
+    padding: 0.25rem 1rem;
+    display: block;
+    text-align: center;
+}
+
+.price{
+    font-size: 2.5rem;
+    color: #fc6076;
+    font-family: 'Dosis', sans-serif;
+}
+
+.form-group{
+    font-family: 'Dosis', sans-serif;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.form-control{
+    padding: 0.25rem;
+    height: auto;
+}
+
+.busses-list .row {
+    margin-bottom: 1rem;
+}
